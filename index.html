@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <head>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- or -->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="top-bar">
+            <i class='bx bx-chevron-down'></i>
+            <span>now playing</span>
+            <i class='bx bx-dots-horizontal-rounded' ></i>
+        </div>
+        <div class="img-area">
+            <img src="" alt="">
+        </div>
+        <div class="song-details">
+            <p class="name">beauz & jvua - crazy</p>
+            <p class="artist">beauz & jvna</p>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar">
+            </div>
+            <div class="timer">
+                <div class="current">0:20</div>
+                <div class="duration">0:20</div>
+            </div>
+            <audio id="main-audio" src=""></audio>
+        </div>
+        <div class="controls">
+            <i class='bx bx-repeat' ></i>
+            <i class='bx bx-skip-previous' ></i>
+            <i class='bx bx-play' ></i>
+            <i class='bx bx-skip-next' ></i>
+            <i class='bx bx-music' ></i>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class='bx bx-music' ></i>
+                    <span>music list</span>
+                </div>
+                <i class="bx bx-x"></i>
+            </div>
+            <ul>
+                <!-- <li>
+                    <div class="name">
+                        <p>beauz & jvua - crazy</p>
+                        <p>beauz & jvna</p>
+                    </div>
+                    <span>0:30</span>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="musicList.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
